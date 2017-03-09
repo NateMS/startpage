@@ -1,5 +1,5 @@
 /****************
-HEADING
+GENERAL
 ****************/
 
 html {
@@ -13,6 +13,27 @@ header {
     margin: 100px auto;
     margin-bottom: 70px;
 }
+
+body {
+    color: #F0EEE3;
+}
+
+body a, body a:visited {
+    color: #4C566A;
+}
+
+body a:hover {
+    color: #8FBCBB;
+}
+
+.main ul {
+    background-color: #F0EEE3;
+}
+
+
+/****************
+TIME & DATE
+****************/
 
 time {
     display: block;
@@ -72,40 +93,6 @@ LISTS
     width: 92%;
 }
 
-.searchbox {
-    width: 100%;
-    padding: 15px;
-    background-color: #434C5E;
-    color: #F0EEE3;
-    border: none;
-    font-family: 'Roboto Mono', monospace;
-    transition: 0.2s;
-}
-
-.searchbox:focus {
-    background-color: #4C566A;
-}
-
-/****************
-COLORS
-****************/
-
-body {
-    color: #F0EEE3;
-}
-
-body a, body a:visited {
-    color: #4C566A;
-}
-
-body a:hover {
-    color: #8FBCBB;
-}
-
-.main ul {
-    background-color: #F0EEE3;
-}
-
 .reddit h3 {
     background-color: #81A1C1;
 }
@@ -136,4 +123,23 @@ body a:hover {
 
 .general a:hover {
     color: #D08770;
+}
+
+
+/****************
+SEARCH
+****************/
+
+.searchbox {
+    width: 100%;
+    padding: 15px;
+    background-color: #434C5E;
+    color: #F0EEE3;
+    border: none;
+    font-family: 'Roboto Mono', monospace;
+    transition: 0.2s;
+}
+
+.searchbox:focus {
+    background-color: #4C566A;
 }
