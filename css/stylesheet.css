@@ -3,31 +3,31 @@ HEADING
 ****************/
 
 html {
-  font-size: 23px;
-  background: url("../img/bg.png") no-repeat center center fixed;
-  background-size: cover;
-  height: 100vh;
+    font-size: 23px;
+    background: url("../img/bg.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
 }
 
 header {
-  margin: 100px auto;
-  margin-bottom: 70px;
+    margin: 100px auto;
+    margin-bottom: 70px;
 }
 
 time {
-  display: block;
-  font-family: 'Lato', sans-serif;
-  font-size: 4.2em;
-  text-align: center;
-  font-weight: 300;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 4.2em;
+    text-align: center;
+    font-weight: 300;
 }
 
 .date {
-  display: block;
-  font-family: 'Lato', sans-serif;
-  font-size: 1.6em;
-  text-align: center;
-  font-weight: 300;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: 300;
 }
 
 
@@ -36,54 +36,54 @@ LISTS
 ****************/
 
 .main h3 {
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 500;
-  width: 100%;
-  text-align: center;
-  margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    margin: 0;
 }
 
 .main a {
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 400;
-  text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    text-decoration: none;
 }
 
 .main ul {
-  margin: 0;
-  padding: .125em 0;
-  text-align: center;
-  list-style: none;
+    margin: 0;
+    padding: .125em 0;
+    text-align: center;
+    list-style: none;
 }
 
 .main section {
-  display: inline-block;
-  float: left;
-  margin: 20px 15%;
-  width: 70%;
+    display: inline-block;
+    float: left;
+    margin: 20px 15%;
+    width: 70%;
 }
 
 .wrapper {
-  max-width: 1024px;
-  margin: 0 auto;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .main .search {
-  width: 92%;
+    width: 92%;
 }
 
 .searchbox {
-  width: 100%;
-  padding: 15px;
-  background-color: #434C5E;
-  color: #F0EEE3;
-  border: none;
-  font-family: 'Roboto Mono', monospace;
-  transition: 0.2s;
+    width: 100%;
+    padding: 15px;
+    background-color: #434C5E;
+    color: #F0EEE3;
+    border: none;
+    font-family: 'Roboto Mono', monospace;
+    transition: 0.2s;
 }
 
 .searchbox:focus {
-  background-color: #4C566A;
+    background-color: #4C566A;
 }
 
 /****************
@@ -91,50 +91,49 @@ COLORS
 ****************/
 
 body {
-  /*background-color: #3B4252;*/
-  color: #F0EEE3;
+    color: #F0EEE3;
 }
 
 body a, body a:visited {
-  color: #4C566A;
+    color: #4C566A;
 }
 
 body a:hover {
-  color: #8FBCBB;
+    color: #8FBCBB;
 }
 
 .main ul {
-  background-color: #F0EEE3;
+    background-color: #F0EEE3;
 }
 
 .reddit h3 {
-  background-color: #81A1C1;
+    background-color: #81A1C1;
 }
 
 .reddit a:hover {
-  color: #81A1C1;
+    color: #81A1C1;
 }
 
 .school h3 {
-  background-color: #8FBCBB;
+    background-color: #8FBCBB;
 }
 
 .school a:hover {
-  color: #8FBCBB;
+    color: #8FBCBB;
 }
 
 .dev h3 {
-  background-color: #A3BE8C;
+    background-color: #A3BE8C;
 }
 
 .dev a:hover {
-  color: #A3BE8C;
+    color: #A3BE8C;
 }
 
 .general h3 {
-  background-color: #D08770;
+    background-color: #D08770;
 }
 
 .general a:hover {
-  color: #D08770;
+    color: #D08770;
 }
